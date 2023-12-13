@@ -1,0 +1,24 @@
+{
+  "name": "ttsmarker-sdk",
+  "version": "0.0.1",
+  "author": "vacklee",
+  "main": "dist/ttsmarker-sdk.js",
+  "module": "dist/ttsmarker-sdk.js",
+  "types": "dist/index.d.ts",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "dev": "webpack -c webpack.config.js -w",
+    "example": "node example.js"
+  },
+  "devDependencies": {
+    "ts-loader": "^9.5.1",
+    "typescript": "^5.3.3",
+    "webpack": "^5.89.0",
+    "webpack-cli": "^5.1.4"
+  },
+  "dependencies": {
+    "axios": "^1.6.2"
+  }
+}
